@@ -1,3 +1,4 @@
+/*
 body {
  background-color: cornflowerblue;
 }
@@ -12,4 +13,91 @@ h2 {
 
 p {
  font-size: 18px;
+}*/
+
+/* Style the whole webpage */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Style the header */
+#header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Style the main headings */
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Style each section */
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Style the skills table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table headings and cells */
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Style the table heading row */
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Style the contact form */
+input, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Change button color when hovering */
+button:hover {
+    background-color: #217dbb;
+}
+
+/* Style the footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
